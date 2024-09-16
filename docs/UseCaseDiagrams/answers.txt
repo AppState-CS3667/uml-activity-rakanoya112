@@ -1,1 +1,8 @@
-
+1. The primary actors are the shoppers. There is an adult and a minor, they can be combined into one shopper. 
+2. The secondary actors are the employees.
+3. Verbs can describe the use case.
+4. Nouns can describe the actors.
+5.The actors are primary because they are the ones purchasing the items.
+6. The secondary actors are the ones assisting the shoppers. 
+7. Each item has a specific ID and will need to be abl to verify the specified item.
+8.Scan items includes Check Cart because all the actors need to be able to see what has been scanned and placed into the cart. 
