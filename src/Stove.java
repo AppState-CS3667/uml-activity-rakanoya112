@@ -1,10 +1,6 @@
-public class Stove extends Burner
+public class Stove
 {
     private Burner[] burners;
-    public Stove()
-    {
-        burners = new Burner[0];
-    }
     public boolean hookUp()
     {
         return true;
