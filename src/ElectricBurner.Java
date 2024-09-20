@@ -1,4 +1,4 @@
-public class ElectricBurner
+public class ElectricBurner extends Burner
 {
     private double voltReq;
     private double ampReq;
@@ -9,6 +9,7 @@ public class ElectricBurner
      */
     public ElectricBurner(double voltReq)
     {
+        super(0, 0, 0);
         this.voltReq  = voltReq;
     }
     /**
