@@ -1,4 +1,4 @@
-public class GasBurner
+public class GasBurner extends Burner
 {
     private String gasType;
     /**
@@ -6,6 +6,7 @@ public class GasBurner
      */
     public GasBurner()
     {
+        super(0, 0, 0);
         gasType = "";
     }
     /**
